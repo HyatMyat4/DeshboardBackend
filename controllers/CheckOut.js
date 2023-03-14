@@ -36,7 +36,7 @@ const CheckOut = async (req , res) => {
           shipping_options: [{shipping_rate: 'shr_1Masu1LEcPSAQWYOq9KOfWYn'}],            
           line_items: tramFrom_data,         
           mode: 'payment',
-          success_url: `${process.env.Host}/SuccessPayment`,
+          success_url: `https://admin-dashboard-hyatmyat4.vercel.app/SuccessPayment`,
           cancel_url: `${process.env.Host}/`,
           metadata: { 
              email : Email ,  
