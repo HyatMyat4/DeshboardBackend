@@ -37,7 +37,7 @@ const CheckOut = async (req , res) => {
           line_items: tramFrom_data,         
           mode: 'payment',
           success_url: `https://admin-dashboard-hyatmyat4.vercel.app/SuccessPayment`,
-          cancel_url: `${process.env.Host}/`,
+          cancel_url: `https://admin-dashboard-hyatmyat4.vercel.app/`,
           metadata: { 
              email : Email ,  
              userImage: userImage ,    
